@@ -44,7 +44,7 @@ io.on('connection', (socket) => {
 });
 
 var corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000',"https://final-year-frontend-kappa.vercel.app"],
   optionsSuccessStatus: 200, // For legacy browser support
   credentials: true,
 };
